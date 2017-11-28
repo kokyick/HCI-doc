@@ -358,7 +358,10 @@
                           <div class="box box-success">
                             <div class="box-header with-border">
                               <h3 class="box-title">Asthmatic reaction</h3>
-                
+                              <p class="text-center">
+                                <i class="fa fa-circle" style="color:rgb(210, 214, 222);"></i> 2016
+                                <i class="fa fa-circle" style="color:rgba(60,141,188,0.9);"></i> 2017 
+                              </p>
                               <div class="box-tools pull-right">
                                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
                                 </button>
@@ -469,7 +472,7 @@
               <!-- /.tab-pane -->
 
               <div class="tab-pane" id="settings">
-                <form class="form-horizontal">
+                <form class="form-horizontal" autocomplete="on">
                   <div class="form-group">
                     <label for="inputName" class="col-sm-2 control-label">Name</label>
 
@@ -505,6 +508,14 @@
                             </select>
                       </div>
                   </div>
+                  <div class="form-group">
+                    <label for="inputDays" class="col-sm-2 control-label">To be taken</label>
+                    <div class="col-sm-10">
+
+                      <input type="radio" name="before" value="female"> Before Meals<br>
+                      <input type="radio" name="after" value="other"> After Meals
+                    </div>
+                </div>
 
                   <div class="form-group" id="container"></div>
                   <hr/>
